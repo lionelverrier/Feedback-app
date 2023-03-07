@@ -4,7 +4,7 @@ import Card from './shared/Card';
 import PropTypes from 'prop-types';
 
 
-function FeedBackItem({ item, handleDelete }) {
+function FeedbackItem({ item, handleDelete }) {
 
 
   return (
@@ -18,8 +18,8 @@ function FeedBackItem({ item, handleDelete }) {
   );
 }
 
-FeedBackItem.propTypes = {
+FeedbackItem.propTypes = {
   item: PropTypes.object.isRequired,
 };
 
-export default FeedBackItem;
+export default FeedbackItem;
